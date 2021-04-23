@@ -53,7 +53,8 @@ void matrix_mult (int n) {
 
 int main(int argc, char* argv []) {
 
-        int n = atoi(argv[1]);
+        //int n = atoi(argv[1]);
+	int n = 10;
         printf("Running Matrix Multiplication of Size %d x %d \n", n, n);
         matrix_mult(n);
         return 0;
